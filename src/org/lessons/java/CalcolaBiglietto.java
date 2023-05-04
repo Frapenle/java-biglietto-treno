@@ -25,12 +25,9 @@ public class CalcolaBiglietto {
 			double discount = ticketPrice * 40 / 100;
 			ticketPrice = ticketPrice - discount;
 			System.out.println("Total price: " + ticketPrice + "euro");
+			
 		} else {
 			System.out.println("Total price: " + ticketPrice + "euro");
 		}
 	}
-	
-	
-	
-
 }
