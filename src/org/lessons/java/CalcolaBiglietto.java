@@ -29,5 +29,7 @@ public class CalcolaBiglietto {
 		} else {
 			System.out.println("Total price: " + ticketPrice + "euro");
 		}
+		
+		userInput.close();
 	}
 }
