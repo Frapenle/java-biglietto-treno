@@ -13,7 +13,7 @@ public class CibiPreferiti {
 		System.out.println("Last favourite food is: " + favouriteFoods[favouriteFoods.length - 1]);
 		
 		//middle position
-		int middle = (favouriteFoods.length - 1) / 2;
+		String middle = favouriteFoods[(favouriteFoods.length - 1) / 2];
 		System.out.println("Food in the middle of the list is: " + middle);
 	}
 
