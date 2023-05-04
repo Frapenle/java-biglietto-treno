@@ -7,7 +7,7 @@ public class FizzBuzz {
 	public static void main(String[] args) {
 //		user number input
 		Scanner userNumber = new Scanner(System.in);
-		System.out.println("Insert number between 1 and 1000 ");
+		System.out.println("insert a number greater than 1 ");
 		int number = userNumber.nextInt();
 		
 		for (int i = 1; i <= number; i++) {
